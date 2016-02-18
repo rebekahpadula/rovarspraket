@@ -42,12 +42,12 @@ function maxOfThree(a, b, c){
     }
 };
 
-// console.assert(maxOfThree(1,3,2) === 3);
-// console.assert(maxOfThree(0,3,-1) === 3);
-// console.assert(maxOfThree(10,3,50) === 50);
-// console.assert(maxOfThree(-1,-3,-10) === -1);
-// console.assert(maxOfThree("aaa",0,1) === 1);
-// console.assert(isNaN(maxOfThree("aaa","bbb","ccc")));
+console.assert(maxOfThree(1,3,2) === 3);
+console.assert(maxOfThree(0,3,-1) === 3);
+console.assert(maxOfThree(10,3,50) === 50);
+console.assert(maxOfThree(-1,-3,-10) === -1);
+console.assert(maxOfThree("aaa",0,1) === 1);
+console.assert(isNaN(maxOfThree("aaa","bbb","ccc")));
 
 /**
  * PART 2
@@ -97,7 +97,6 @@ function rovarspraket(input){
   	} 
   	newString += input[i];
   }
-  console.log(newString);
   return newString
    
 
@@ -159,7 +158,6 @@ function findLongestWord(sentence) {
     		longestWord = str[i]
     		longestLength = trueLength;
     	}
-    	console.log(longestWord)
     }
 
     return longestWord
